@@ -1,0 +1,50 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true
+  },
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier', 'plugin:prettier/recommended'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    },
+    ecmaVersion: 12,
+    sourceType: 'module'
+  },
+  plugins: ['react'],
+  rules: {
+    'react/no-unstable-nested-components': 'off',
+    'import/no-unresolved': [2, { caseSensitive: false }],
+    'react/jsx-filename-extension': 'off',
+    'no-use-before-define': [
+      'error',
+      {
+        functions: false,
+        classes: false
+      }
+    ],
+    'no-param-reassign': 0,
+    'no-console': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto'
+      }
+    ],
+    'no-underscore-dangle': 'off',
+    'import/prefer-default-export': 'off',
+    'react/no-array-index-key': 'off',
+    'import/no-named-as-default-member': 'off',
+    'jsx-a11y/media-has-caption': 'off',
+    'import/no-named-as-default': 'off'
+  },
+  root: true,
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  }
+};

@@ -1,0 +1,25 @@
+.stats-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.stats-content{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats-back{
+    margin: 2% !important;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}

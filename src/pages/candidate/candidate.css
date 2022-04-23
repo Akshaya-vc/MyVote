@@ -1,0 +1,54 @@
+.user-profile-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.user-profile-back{
+    margin: 2% !important;
+}
+.user-profile-heading{
+    text-align: center;
+}
+.user-profile-content {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 5%;
+  justify-content: center;
+}
+
+.user-inner-field {
+  display: flex;
+  flex-direction: column;
+}
+.user-left {
+  margin: 2%;
+}
+.user-right {
+  margin: 2%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  justify-content: center;
+  align-items: center;
+}
+.user-vote-status-1 {
+  color: green;
+}
+.user-vote-status-2 {
+  color: red;
+}
+.user-vote-status {
+  padding: 2%;
+}
+.election-item {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
